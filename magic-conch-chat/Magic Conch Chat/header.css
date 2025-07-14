@@ -1,0 +1,41 @@
+header {
+    width: 100%;
+    background-color: #b7aef0;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 15px;
+    background-image: url(assets/sora.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: clamp(1.2rem, 7vw, 2.7rem);
+    font-family: 'Bagel Fat One', system-ui;
+    margin: 0;
+    line-height: 1.2;
+}
+
+header p {
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+    font-family: 'IBM Plex Sans KR', system-ui;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,13 @@
+.chat-screen {
+    overflow-y: scroll;
+    flex: 1;
+    padding: 0 10px;
+}
+
+section {
+    display: flex;
+    padding: 5px;
+    border-top: 3px solid #b7aef0;
+    background-color: #d5ceff;
+    flex-shrink: 0;
+}

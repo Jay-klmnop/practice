@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <title>Create an Account</title>
+</head>
+
+<body>
+    <div class="signup-container">
+        <header>
+            <div class="title-wrapper">
+                <img src="assets/Star.png" alt="" class="star" id="star1">
+                <img src="assets/Star-2.png" alt="" class="star" id="star2">
+                <img src="assets/Star-3.png" alt="" class="star" id="star3">
+                <h1>
+                    GAME<br>
+                    START
+                </h1>
+                <p>Create Your<br>
+                    Account!!</p>
+            </div>
+        </header>
+        <form action="/signup" method="post">
+            <main>
+                <input type="text" class="input" name="name" id="name" placeholder="Name">
+                <input type="tel" class="input" name="number" id="number" placeholder="Phone Number">
+                <input type="email" class="input" name="email" id="email" placeholder="Email Address" minlength="9">
+                <input type="text" class="input" name="id" id="id" placeholder="ID">
+                <input type="password" class="input" name="password" id="password" placeholder="Password">
+                <input type="text" class="input" name="char-name" id="char-name" placeholder="Character's Name">
+                <div class="terms-container">
+                    <input type="checkbox" class="box" id="terms">
+                    <label for="terms"> Are you ready for an adventure?</label>
+                </div>
+            </main>
+            <button type="submit" class="button">Let's Go!!</button>
+        </form>
+    </div>
+</body>
+
+</html>

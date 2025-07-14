@@ -1,0 +1,26 @@
+section textarea {
+    flex: 1;
+    height: 60px;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'IBM Plex Sans KR', system-ui;
+}
+
+section button {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    border: none;
+    background-color: #b7aef0;
+    color: black;
+    font-family: 'Bagel Fat One', system-ui;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: #8a7fc2;
+}
